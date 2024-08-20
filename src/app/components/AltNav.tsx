@@ -54,7 +54,7 @@ export default function AltNav() {
     >
       {/* Hamburger menu */}
       <div className="w-full flex justify-center gap-8 items-center md:hidden">
-        <Image src="/logo.png" width="120" height="90" alt="Montessori Logo" />
+      <Link href="/" onClick={()=>setItem(0)} ><Image src="/logo.png" width="120" height="90" alt="Montessori Logo" /></Link>
         <button onClick={toggleMobileMenu} className="focus:outline-none">
           {isOpen ? (
             <svg
@@ -117,7 +117,7 @@ export default function AltNav() {
           {navItems.map((e, i) => {
             return (
                 
-                <Link key={i} id={e.title} href={e.href} onClick={toggleMobileMenu}
+                <Link key={i} id={e.title} href={e.href} onMouseDown={()=>setItem(i)}  onMouseUp={toggleMobileMenu} 
                 className={`px-10 py-1 text-gray-700 font-extrabold  duration-500 ${
                     item == i ? "underline" : ""
                   } hover:bg-blue-100 hover:text-blue-900`}>

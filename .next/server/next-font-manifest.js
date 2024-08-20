@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/tomnguyen/Codesmith/ggma/ggma-1/src/app/layout\":[\"static/media/fe1fa1f185818dce-s.p.woff2\",\"static/media/7c6033856feb08d1-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
