@@ -117,7 +117,7 @@ export default function AltNav() {
           {navItems.map((e, i) => {
             return (
                 
-                <Link key={i} id={e.title} href={e.href} onMouseDown={()=>setItem(i)}  onMouseUp={toggleMobileMenu} 
+                <Link key={i} id={e.title} href={e.href} onClick={()=>setItem(i)}  onMouseUp={toggleMobileMenu} 
                 className={`px-10 py-1 text-gray-700 font-extrabold  duration-500 ${
                     item == i ? "underline" : ""
                   } hover:bg-blue-100 hover:text-blue-900`}>
