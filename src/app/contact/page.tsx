@@ -7,6 +7,8 @@ export default function Contact() {
         <h1 className="text-3xl">Please come visit us at:</h1>
 
         <p>10141 Lampson Ave, Garden Grove CA 92840</p>
+        
+        <h1 className="text-3xl">Call or email to schedule a tour:</h1>
 
         <p><a href="tel:7146366300">📞 (714) 636 - 6300</a></p>
 

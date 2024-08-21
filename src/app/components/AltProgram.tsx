@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AltProgram() {
   return (
@@ -72,7 +73,13 @@ export default function AltProgram() {
           So call us now and setup the tour of our facility and get your child
           started on a path to an all-rounded development and growth.
         </p>
-        <button id="schedule-tour" className="px-12 py-2 mt-4 md:w-1/3 rounded-full font-bold text-lg text-white leading-loose transition duration-400 bg-blue-600 hover:bg-blue-200 hover:text-blue-700 hover:cursor-pointer">Schedule a Tour</button>
+        <Link
+          href="/contact"
+          id="schedule-tour"
+          className="px-24 md:px-36 py-3 rounded-full font-bold text-lg text-white leading-loose transition duration-400 bg-blue-600 hover:bg-blue-100 hover:text-blue-900 hover:cursor-pointer"
+        >
+          Schedule a Tour
+        </Link>
       </div>
     </section>
   );

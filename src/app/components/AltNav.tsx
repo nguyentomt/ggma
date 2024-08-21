@@ -18,7 +18,7 @@ export default function AltNav() {
     },
     {
       title: "PROGRAM",
-      href: "#program",
+      href: "/program",
     },
     {
       title: "CONTACT",
@@ -99,7 +99,7 @@ export default function AltNav() {
             return (
                 
                 <Link key={i} id={e.title} href={e.href} onMouseDown={()=>setItem(i)}
-                className={`px-10 py-1 text-white font-extrabold transition bg-blue-300 duration-500 ${
+                className={`px-10 py-1 text-white font-extrabold transition duration-500 ${
                     item == i ? "bg-blue-700" : "bg-blue-500"
                   } hover:bg-blue-100 hover:text-blue-900`}>
                   {e.title}
