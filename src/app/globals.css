@@ -23,6 +23,7 @@ body {
   scroll-behavior: 'smooth';
   background-repeat: repeat-x;
   background-image: url(/ggma_bg.jpg);
+  background-attachment: fixed;
   /* background: linear-gradient(
       to bottom,
       transparent,
