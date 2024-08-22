@@ -766,6 +766,12 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.place-self-center {
+  place-self: center;
+}
+.self-center {
+  align-self: center;
+}
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -786,6 +792,10 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.border-red-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(252 165 165 / var(--tw-border-opacity));
 }
 .bg-blue-500 {
   --tw-bg-opacity: 1;
@@ -1078,6 +1088,10 @@ p {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:px-48 {

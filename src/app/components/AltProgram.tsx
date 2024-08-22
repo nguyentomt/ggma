@@ -73,13 +73,15 @@ export default function AltProgram() {
           So call us now and setup the tour of our facility and get your child
           started on a path to an all-rounded development and growth.
         </p>
-        <Link
-          href="/contact"
-          id="schedule-tour"
-          className="px-24 md:px-36 py-3 rounded-full font-bold text-lg text-white leading-loose transition duration-400 bg-blue-600 hover:bg-blue-100 hover:text-blue-900 hover:cursor-pointer"
-        >
-          Schedule a Tour
-        </Link>
+        <div className="flex justify-center md:justify-start">
+          <Link
+            href="/contact"
+            id="schedule-tour"
+            className="px-24 md:px-36 py-3 rounded-full font-bold text-lg text-white leading-loose transition duration-400 bg-blue-600 hover:bg-blue-100 hover:text-blue-900 hover:cursor-pointer"
+          >
+            Schedule a Tour
+          </Link>
+        </div>
       </div>
     </section>
   );

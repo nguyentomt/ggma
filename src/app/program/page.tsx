@@ -92,14 +92,14 @@ export default function Program() {
             </AccordionSummary>
             <AccordionDetails>
               <dd className="font-normal">
-              The sensorial curriculum is designed to help children refine their
-            senses and improve their ability to observe and classify their
-            surroundings. Using specially designed materials, children explore
-            concepts such as size, color, shape, texture, and sound.
+                The sensorial curriculum is designed to help children refine
+                their senses and improve their ability to observe and classify
+                their surroundings. Using specially designed materials, children
+                explore concepts such as size, color, shape, texture, and sound.
               </dd>
             </AccordionDetails>
           </Accordion>
-          
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -110,15 +110,15 @@ export default function Program() {
             </AccordionSummary>
             <AccordionDetails>
               <dd className="font-normal">
-              Our language program nurtures early literacy skills through a
-            variety of activities that include storytelling, phonics, reading,
-            and writing. Children are encouraged to express themselves and
-            develop their communication skills at their own pace, building a
-            strong foundation for future learning.
+                Our language program nurtures early literacy skills through a
+                variety of activities that include storytelling, phonics,
+                reading, and writing. Children are encouraged to express
+                themselves and develop their communication skills at their own
+                pace, building a strong foundation for future learning.
               </dd>
             </AccordionDetails>
           </Accordion>
-          
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -129,15 +129,15 @@ export default function Program() {
             </AccordionSummary>
             <AccordionDetails>
               <dd className="font-normal">
-              Montessori mathematics introduces children to the world of numbers
-            through hands-on materials that make abstract concepts tangible.
-            Children learn to count, recognize numbers, understand the decimal
-            system, and develop problem-solving skills in a way that is engaging
-            and meaningful.
+                Montessori mathematics introduces children to the world of
+                numbers through hands-on materials that make abstract concepts
+                tangible. Children learn to count, recognize numbers, understand
+                the decimal system, and develop problem-solving skills in a way
+                that is engaging and meaningful.
               </dd>
             </AccordionDetails>
           </Accordion>
-          
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -148,11 +148,12 @@ export default function Program() {
             </AccordionSummary>
             <AccordionDetails>
               <dd className="font-normal">
-              This area includes geography, history, science, art, and music.
-            Children explore the world around them, learn about different
-            cultures, and develop an appreciation for the diversity of life.
-            Cultural studies also include lessons on nature, seasons, and the
-            environment, fostering a sense of wonder and respect for our planet.
+                This area includes geography, history, science, art, and music.
+                Children explore the world around them, learn about different
+                cultures, and develop an appreciation for the diversity of life.
+                Cultural studies also include lessons on nature, seasons, and
+                the environment, fostering a sense of wonder and respect for our
+                planet.
               </dd>
             </AccordionDetails>
           </Accordion>
@@ -175,34 +176,45 @@ export default function Program() {
         </p>
 
         <h2 className="text-center p-4 md:pl-0 md:text-left text-3xl">
-        Why Choose Garden Grove Montessori Academy?
+          Why Choose Garden Grove Montessori Academy?
         </h2>
 
         <p className="">
-        At Garden Grove Montessori Academy, we are dedicated to creating a nurturing, inclusive, and stimulating environment where your child can thrive. Our experienced Montessori-certified educators are passionate about guiding children on their individual learning paths and helping them build the skills they need for future success.
+          At Garden Grove Montessori Academy, we are dedicated to creating a
+          nurturing, inclusive, and stimulating environment where your child can
+          thrive. Our experienced Montessori-certified educators are passionate
+          about guiding children on their individual learning paths and helping
+          them build the skills they need for future success.
         </p>
 
         <p className="">
-        We believe that the early years are critical for setting the foundation for a lifetime of learning and personal growth. Our Montessori program is designed to honor your child's unique qualities and encourage them to become independent, confident, and joyful learners.
+          We believe that the early years are critical for setting the
+          foundation for a lifetime of learning and personal growth. Our
+          Montessori program is designed to honor your child's unique qualities
+          and encourage them to become independent, confident, and joyful
+          learners.
         </p>
 
         <h2 className="text-center p-4 md:pl-0 md:text-left text-3xl">
-        Enroll Your Child Today
+          Enroll Your Child Today
         </h2>
 
         <p className="mb-8">
-        Give your child the gift of a Montessori education at Garden Grove Montessori Academy. Contact us today to learn more about our program, schedule a tour, or enroll your child. We look forward to welcoming you and your family into our community!
+          Give your child the gift of a Montessori education at Garden Grove
+          Montessori Academy. Contact us today to learn more about our program,
+          schedule a tour, or enroll your child. We look forward to welcoming
+          you and your family into our community!
         </p>
-        
 
-
-        <Link
-          href="/contact"
-          id="schedule-tour"
-          className="px-24 md:px-36 py-3 rounded-full font-bold text-lg text-white leading-loose transition duration-400 bg-blue-600 hover:bg-blue-100 hover:text-blue-900 hover:cursor-pointer"
-        >
-          Schedule a Tour
-        </Link>
+        <div className="flex justify-center md:justify-start">
+          <Link
+            href="/contact"
+            id="schedule-tour"
+            className="px-24 md:px-36 py-3 rounded-full font-bold text-lg text-white leading-loose transition duration-400 bg-blue-600 hover:bg-blue-100 hover:text-blue-900 hover:cursor-pointer"
+          >
+            Schedule a Tour
+          </Link>
+        </div>
       </div>
     </section>
   );

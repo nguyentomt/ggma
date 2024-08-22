@@ -31,19 +31,19 @@ export default function AltNav() {
   ];
 
   // hide NavBar on scroll down
-  if (typeof window !== "undefined") {
-    let pos1 = window.scrollY;
-    window.onscroll = function () {
-      let pos2s = window.scrollY;
-      const navElement = document.getElementById("nav");
-      if (navElement && pos1 > pos2s) {
-        navElement.classList.remove("nav-hidden");
-      } else if (navElement) {
-        navElement.classList.add("nav-hidden");
-      }
-      pos1 = pos2s;
-    };
-  }
+  // if (typeof window !== "undefined") {
+  //   let pos1 = window.scrollY;
+  //   window.onscroll = function () {
+  //     let pos2s = window.scrollY;
+  //     const navElement = document.getElementById("nav");
+  //     if (navElement && pos1 > pos2s) {
+  //       navElement.classList.remove("nav-hidden");
+  //     } else if (navElement) {
+  //       navElement.classList.add("nav-hidden");
+  //     }
+  //     pos1 = pos2s;
+  //   };
+  // }
 
   return (
     
