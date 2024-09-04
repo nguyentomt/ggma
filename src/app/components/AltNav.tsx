@@ -48,12 +48,10 @@ export default function AltNav() {
   return (
     
     <div id="nav"
-      className={`z-50 flex justify-around items-center top-0 text-base md:text-lg ${
-        isOpen ? `` : ``
-      }`}
+      className={`z-50 flex justify-around items-center top-0 text-base md:text-lg`}
     >
       {/* Hamburger menu */}
-      <div className="w-full flex justify-center gap-8 items-center md:hidden">
+      <div className="w-full z-40 flex justify-center gap-8 items-center md:hidden">
       <Link href="/" onClick={()=>setItem(0)} ><Image src="/logo.png" width="120" height="90" alt="Montessori Logo" /></Link>
         <button onClick={toggleMobileMenu} className="focus:outline-none">
           {isOpen ? (
@@ -112,7 +110,7 @@ export default function AltNav() {
 
       {/* When menu toggled open */}
       {isOpen && (
-        <div className="opacity-90 fixed w-screen h-screen text-3xl top-24 z-40 left-1/2 transform -translate-x-1/2 bg-yellow-100 md:hidden">
+        <div className="opacity-90 fixed w-screen h-screen text-3xl top-0 pt-24 z-10 left-1/2 transform -translate-x-1/2 bg-yellow-100 md:hidden">
           <div className="flex flex-col items-center">
           {navItems.map((e, i) => {
             return (
