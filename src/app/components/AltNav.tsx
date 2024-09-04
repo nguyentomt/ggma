@@ -30,6 +30,14 @@ export default function AltNav() {
     },
   ];
 
+  const colorClasses = [
+    'bg-yellow-400',
+    'bg-yellow-300',
+    'bg-yellow-200',
+    'bg-yellow-100',
+    'bg-yellow-50',
+  ]
+
   // hide NavBar on scroll down
   // if (typeof window !== "undefined") {
   //   let pos1 = window.scrollY;
@@ -111,14 +119,17 @@ export default function AltNav() {
       {/* When menu toggled open */}
       {isOpen && (
         <div className="opacity-90 fixed w-screen h-screen text-3xl top-0 pt-24 z-10 left-1/2 transform -translate-x-1/2 bg-yellow-100 md:hidden">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col h-1/2 justify-around items-center">
           {navItems.map((e, i) => {
+            const color = colorClasses[i]
+
+
             return (
                 
                 <Link key={i} id={e.title} href={e.href} onClick={toggleMobileMenu} onMouseUp={()=>setItem(i)}
-                className={`px-10 py-1 text-gray-700 font-extrabold  duration-500 ${
-                    item == i ? "underline" : ""
-                  } hover:bg-blue-100 hover:text-blue-900`}>
+                className={`w-full h-full flex justify-center items-center px-10 py-1 text-gray-700 font-extrabold ${
+                    item == i ? "underline" : "opacity-80"
+                  }`}>
                   {e.title}
                 </Link>
               
