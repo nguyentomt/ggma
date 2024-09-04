@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function AltProgram() {
   return (
-    <section id="program" className="pb-16 w-full h-full md:w-3/4 flex flex-col mx-auto">
+    <section id="program" className="pb-16 w-full text-justify h-full md:w-3/4 flex flex-col mx-auto">
       <div id="method-container" className="flex flex-col items-center md:flex-row gap-8 pb-8">
         <div id="left-program" className=" ">
           <Image

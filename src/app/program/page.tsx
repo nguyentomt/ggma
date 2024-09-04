@@ -11,7 +11,7 @@ export default function Program() {
   return (
     <section
       id="program"
-      className="pb-16 w-full md:w-3/4 flex flex-col mx-auto"
+      className="pb-16 w-full text-justify md:w-3/4 flex flex-col mx-auto"
     >
       <div
         id="method-container"
